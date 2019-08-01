@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ZhangYin/Desktop/8_puzzle/PuzzleBoard.h
+vector
+-
+string
+-
+sstream
+-
+iostream
+-
+
+/Users/ZhangYin/Desktop/8_puzzle/main.cpp
+PuzzleBoard.h
+/Users/ZhangYin/Desktop/8_puzzle/PuzzleBoard.h
+fstream
+-
+iostream
+-
+sstream
+-
+queue
+-
+set
+-
+ctime
+-
+
